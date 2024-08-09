@@ -11,8 +11,8 @@
 		(event.target as HTMLElement).style.background = `radial-gradient(circle at top ${topPercentage}% left ${leftPercentage}%, #a3a3a3, #404040)`;
 	}
 
-	function removeBackgroundGradient(event: MouseEvent) {
-	    (event.target as HTMLElement).style.background = '#404040';
+	const removeBackgroundGradient = (event: MouseEvent) => {
+   	    (event.target as HTMLElement).style.background = '';
 	}
 </script>
 
